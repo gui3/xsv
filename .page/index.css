@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    text-align: center;
+    background: #fea;
+}
+
+textarea {
+    width: 80%;
+    min-height: 200px;
+    resize: vertical;
+    background: #fff;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+}
+
+hr {
+    margin: 5%;
+    border: 2px solid #555;
+}

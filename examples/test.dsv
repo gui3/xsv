@@ -1,0 +1,12 @@
+{separators("|",";")}
+
+{skip.y(5)}
+|statistique|valeur;
+|nombre de sondes|18;
+|nombre de scenarios|112;
+;
+|estimation temps par scenario (secondes)|40;
+;
+|estimation temps cumulé des scenarios;
+|secondes|{=C5*C3};
+|

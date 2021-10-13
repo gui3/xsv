@@ -1,6 +1,7 @@
-{separators("|",";")}
+{!CONFIG ROWS("|") COLS(";") !}
+{!START!}
 
-{skip.y(5)}
+{#SKIP.Y(5)}
 |statistique|valeur;
 |nombre de sondes|18;
 |nombre de scenarios|112;

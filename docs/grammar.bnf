@@ -1,0 +1,22 @@
+
+
+<script> ::= <initialisation>? <_> <grid>
+
+<initialisation> ::= <config> <_> <define>* <_> <start>
+
+<config> ::= <commentStart> "CONFIG" <_> (<function> <_>?)* <commentEnd>
+
+<define> ::=
+
+<start> ::= <commentStart> "START" <_>? <commentEnd>
+
+
+
+
+<_> ::= <invisibles>+
+
+<invisible> ::= <spacing> | <newline>
+
+<spacing> ::= " " | "\t"
+
+<newline> ::= ["\r"] "\n"
